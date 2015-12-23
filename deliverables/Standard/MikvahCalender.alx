@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="MikvahCalender">
+		<name >
+			MikvahCalender
+		</name>
+		<description >
+			MikvahCalender
+		</description>
+		<version >
+			1.0.2
+		</version>
+		<vendor >
+			Ahmad Shahwaiz
+		</vendor>
+		<copyright >
+			Copyright (c) 2013 Ahmad Shahwaiz
+		</copyright>
+		<fileset Java="1.55" _blackberryVersion="[7.1.0)">
+			<directory >
+				7.1.0
+			</directory>
+			<files >
+				MikvahCalender.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>
