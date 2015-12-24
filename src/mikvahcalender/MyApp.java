@@ -13,7 +13,7 @@ import net.rim.device.api.ui.container.VerticalFieldManager;
  * This class extends the UiApplication class, providing a
  * graphical user interface.
  */
-public class MyApp extends UiApplication
+public class MikvahCalenderApp extends UiApplication
 {
     /**
      * Entry point for application
@@ -23,7 +23,7 @@ public class MyApp extends UiApplication
     {
         // Create a new instance of the application and make the currently
         // running thread the application's event dispatch thread.
-        MyApp theApp = new MyApp();       
+        MikvahCalenderApp theApp = new MikvahCalenderApp();       
         theApp.enterEventDispatcher();
     }
     
@@ -31,17 +31,17 @@ public class MyApp extends UiApplication
     /**
      * Creates a new MyApp object
      */
-    public MyApp()
+    public MikvahCalenderApp()
     {        
         // Push a screen onto the UI stack for rendering.
         pushScreen(new MikvahWebView());
     }    
     
 }
-class MikvahWebView extends MainScreen
+class MikvahWebViewScreen extends MainScreen
 {
 	BrowserField browserField;
-    public MikvahWebView()
+    public MikvahWebViewScreen()
     {
     	try{
     		VerticalFieldManager parentVfm = new VerticalFieldManager(); 
