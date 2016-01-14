@@ -60,7 +60,7 @@ class MikvahWebViewScreen extends MainScreen
 			        public void run() 
 			        { 
 			        	Status.show("Loading, Please Wait..", Bitmap.getPredefinedBitmap(Bitmap.INFORMATION), 2000); 
-			        	browserField.requestContent("https://www.mikvahcalendar.com/m/login.php");
+			        	browserField.requestContent("https://www.yourwebsite.com/");
 				   		
 			        }
 			    });
